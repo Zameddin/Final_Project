@@ -103,7 +103,7 @@ export function MovieProvider({ children }) {
       toast.success("Login successfully");
     } catch (err) {
       console.log(err)
-      navigate("Salam")
+      navigate("/")
     }
   }
   // <==========================================================>
