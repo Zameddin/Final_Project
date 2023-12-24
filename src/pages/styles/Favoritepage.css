@@ -1,0 +1,24 @@
+.favorite-header{
+    margin-bottom: 5rem; 
+background: #10141e;
+}
+.favorite-movies{
+    display: flex; 
+position: relative; 
+flex-wrap: wrap; 
+justify-content: space-evenly; 
+}
+
+
+
+
+@media (min-width: 768px) { 
+
+  .favorite-header{
+    padding: 2.5rem; 
+  }
+  .favorite-movies{
+    padding: 0.5rem; 
+  }
+ 
+ }

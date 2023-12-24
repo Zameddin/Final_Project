@@ -1,0 +1,41 @@
+.upcoming-container{
+        margin-bottom: 5rem;
+        width: 100%;
+        --tw-bg-opacity: 1;
+        background-color: rgb(16 20 30 / var(--tw-bg-opacity))
+}
+
+.upcoming-layout{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      
+}
+.upcoming{
+        position: relative;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      
+}
+
+
+
+
+
+@media (min-width: 768px){
+    .upcoming-container{
+      margin-bottom: 0px;
+      padding: 2.5rem
+    }
+.upcoming-layout{
+    justify-content: space-around
+}
+.upcoming{
+    justify-content: space-around;
+    padding: 0.5rem
+}
+  }
+  

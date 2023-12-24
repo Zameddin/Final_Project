@@ -1,0 +1,51 @@
+.header{
+       padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        font-weight: 700;
+        --tw-text-opacity: 1;
+        color: rgb(147 197 253 / var(--tw-text-opacity));
+
+}  
+.header-h1{
+        border-radius: 9999px;
+        --tw-bg-opacity: 1;
+        background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+        padding: 0.5rem;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity))
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px){
+.header{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem
+}  
+.header-h1{
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+  }

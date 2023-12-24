@@ -1,0 +1,30 @@
+.login-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.login-button{
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        gap: 1.25rem;
+        border-radius: 1rem;
+        border-width: 2px;
+        border-color: rgb(255 255 255 / 0.3);
+        padding: 1.25rem; 
+}
+.login-button:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity))
+}
+.login-google{
+        font-size: 1.875rem;
+        line-height: 2.25rem
+}
+.login-text{
+        font-weight: 600;
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity))
+}
